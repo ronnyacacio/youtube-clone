@@ -8,16 +8,13 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html {
-    font-size: 62.5%;
-    background-color: #f9f9f9;
+  html, body, #root {
+    height: 100%;
   }
 
-  body, input, select, textarea, button {
-    font-size: 1rem;
-    font-family: 'Roboto', Arial, sans-serif;
-    -webkit-appearance: none;
-    -webkit-font-smoothing: antialiased;
+  *, button, input {
+    border: 0;
+    font-family: 'Roboto', sans-serif;
   }
 
   a {
@@ -28,5 +25,5 @@ export default createGlobalStyle`
     cursor: pointer;
     background-color: transparent;
     border: 0;
-    }
+  }
 `;
