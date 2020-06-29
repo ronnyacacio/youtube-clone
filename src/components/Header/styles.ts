@@ -15,10 +15,16 @@ export const Navigation = styled.div`
   width: 100%;
   max-width: 185px;
 
+  > svg {
+    cursor: pointer;
+  }
+
   > img {
     width: 100px;
     height: 25px;
     margin-left: 20px;
+
+    cursor: pointer;
   }
 `;
 
