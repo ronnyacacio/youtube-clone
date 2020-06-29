@@ -9,7 +9,7 @@ import Home from './pages/Home';
 import GlobalStyle from './styles/global';
 
 const App: React.FC = () => {
-  const [theme, setTheme] = usePeristedState<DefaultTheme>('theme', light);
+  const [theme, setTheme] = usePeristedState<DefaultTheme>('theme', dark);
 
   const toggleTheme = () => {
     setTheme(theme.title === 'light' ? dark : light);

@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Header } from '../../components';
 import { Wrapper } from './styles';
 
 interface Props {
@@ -9,7 +10,7 @@ interface Props {
 const Home: React.FC<Props> = ({ toggleTheme }) => {
   return (
     <Wrapper>
-
+      <Header toggleTheme={toggleTheme} />
     </Wrapper>
   );
 };
