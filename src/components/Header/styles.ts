@@ -26,6 +26,7 @@ export const Search = styled.div`
   display: flex;
   width: 100%;
   max-width: 728px;
+  margin-left: 120px;
 
   form {
     display: flex;

@@ -11,6 +11,7 @@ declare module 'styled-components' {
       mainBackground: string;
       boxSearch: string;
       icons: string;
+      iconsMenu: string;
 
       text: string;
       red: string;
