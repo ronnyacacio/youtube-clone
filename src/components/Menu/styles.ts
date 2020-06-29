@@ -49,8 +49,8 @@ export const List = styled.div`
         width: 100%;
         min-height: 40px;
         padding: 0 20px;
-        font-size: 1.4rem;
-        line-height: 1.8rem;
+        font-size: 14px;
+        line-height: 18px;
         color: ${({ theme }) => theme.colors.text};
 
         div {
