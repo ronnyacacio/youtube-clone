@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Header, Menu } from '../../components';
+import { Header, Menu, Main } from '../../components';
 import { Wrapper } from './styles';
 
 interface Props {
@@ -12,6 +12,7 @@ const Home: React.FC<Props> = ({ toggleTheme }) => {
     <Wrapper>
       <Header toggleTheme={toggleTheme} />
       <Menu />
+      <Main />
     </Wrapper>
   );
 };
