@@ -9,6 +9,8 @@ declare module 'styled-components' {
       secondary: string;
 
       mainBackground: string;
+      boxSearch: string;
+      icons: string;
 
       text: string;
       red: string;
