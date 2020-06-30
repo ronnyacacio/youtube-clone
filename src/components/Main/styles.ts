@@ -46,10 +46,9 @@ export const GridVideo = styled.div`
 
 export const ThumbVideo = styled.div``;
 
-export const Thumb = styled.div`
+export const Thumb = styled.img`
   width: 250px;
   height: 140px;
-  background-color: ${({ theme }) => theme.colors.iconsMenu};
 `;
 
 export const ThumbVideoHeader = styled.div`

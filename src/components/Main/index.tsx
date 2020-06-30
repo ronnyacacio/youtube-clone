@@ -1,5 +1,6 @@
 import React from 'react';
 
+import thumbnail from '../../assets/thumbnail.jpg';
 import {
   Container,
   Title,
@@ -24,7 +25,7 @@ const Main: React.FC = () => {
       <GridVideo>
         {Array.from(Array(15).keys()).map(item => (
           <ThumbVideo key={item}>
-            <Thumb />
+            <Thumb src={thumbnail} alt="Video" />
 
             <ThumbVideoHeader>
               <ImageChannel>
@@ -32,16 +33,16 @@ const Main: React.FC = () => {
               </ImageChannel>
               <ThumbVideoInfo>
                 <ThumbVideoInfoTitle>
-                  Autenticação JWT com Context API e React Router
+                  Tema light/dark com React, Styled Components e TypeScript | Code/Drops #16
                 </ThumbVideoInfoTitle>
 
                 <ThumbVideoInfoNameChannel>
-                  Mateus Silva
+                  Rocketseat
                 </ThumbVideoInfoNameChannel>
 
-                <ThumbVideoInfoView>3.672 visualizações</ThumbVideoInfoView>
+                <ThumbVideoInfoView>41.883 visualizações</ThumbVideoInfoView>
 
-                <ThumbVideoInfoTime>4 de abr. de 2020</ThumbVideoInfoTime>
+                <ThumbVideoInfoTime>31 de jan. de 2020</ThumbVideoInfoTime>
               </ThumbVideoInfo>
             </ThumbVideoHeader>
           </ThumbVideo>
