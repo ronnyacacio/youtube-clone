@@ -32,7 +32,7 @@
 
 ## 💻 Projeto
 
-Esse projeto foi feito para treinar a minha habilidade de criação de UI's com ReactJS e CSS, foi escolhido o youtube por conta da da sua grade de vídeos e pelo theme switcher presente na aplicação, sendo assim seria muito produtivo realizar esse clone! Acesse aqui [YouTube-clone](https://ronnyacacio-youtube-clone.netlify.app/)
+Esse projeto foi feito para treinar a minha habilidade de criação de UI's com ReactJS e CSS, foi escolhido o YouTube por conta da da sua grade de vídeos e pelo theme switcher presente na aplicação, sendo assim seria muito produtivo realizar esse clone! Acesse aqui [YouTube-clone](https://ronnyacacio-youtube-clone.netlify.app/)
 
 ## 🌐 Preview
 
